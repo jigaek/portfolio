@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+section{
+	height: 600px;
+	width: 100%;
+	margin: 30px auto;
+}
+
+form{
+	height: 100%;
+	width: 80%;
+	margin: 0px auto;
+}
+
+input#inputAddress {
+    height: 300px;
+}
+
+input#inputEmail4 {
+    width: 990px;
+}
+
+.singin {
+    margin: 0px auto;
+    text-align: center;
+}
+
+button.btn.btn-primary {
+    width: 500px;
+}
+
+section::after {
+    clear: both;
+    display: table;
+    content: " ";
+}

@@ -1,0 +1,51 @@
+
+header {
+  height: 80px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex{
+	align-items: center;
+}
+
+.btn, btn-secondary{
+	background-color: #343a40;
+	border-color:  #343a40;
+}
+
+button{
+	background-color: #343a40;	
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+/*header*/
+.logo {
+   margin-right: 5px;
+   width: 50px; 
+   border-radius: 10px;
+   position: relative;
+   left: 0px;
+   top: 2px;
+   margin-bottom: 3px;
+}
+
+.loginout ul {
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+.loginout ul li {
+   float: left;
+   padding-left: 20px;
+}
+
+.loginout ul li a {
+   text-decoration: none;
+}

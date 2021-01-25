@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+	height: 100%;
+}
+
+section{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.line{
+	width: 100%;
+	height: 300px;
+}
+
+.card{
+	margin-top:20px;
+	float: left;
+	margin-bottom: 20px;	
+}
+
+.card-position{
+	float:left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.write {
+	margin: 0px auto;
+	width: 300px;
+	text-align: center;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border-top: 2px solid #dee2e6;
+    width: 50px;
+}
+
+tr{
+	border-bottom: 2px solid #dee2e6;
+    border-top: 2px solid #dee2e6;
+}
+
+table{
+	text-align: center;
+}
+
+.table td, .table th {
+    border-top: 2px solid #dee2e6;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .card-position {
+    width: 100%;
+  }
+}
+
+section::after {
+    clear: both;
+    display: table;
+    content: " ";
+}

@@ -1,0 +1,49 @@
+html {
+   height: 100%;
+}
+
+body {
+   margin: 0px auto;
+   height: 100%;
+   background-size: cover; /* 배경사진이 커서 잘리게 출력되지 않고 한 페이지에 딱 맞게 */
+   background: no-repeat center fixed; /* 배경사진이 중복되서 출력되지 않고 한 페이지에 딱 맞개 */
+   background-color: white;
+}
+
+section {
+   width:100%;
+   margin: 0px auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.card-deck {
+   margin-top: 30px; 
+}
+
+.caard {
+    width: 1600px;
+    margin: 0px auto;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+input.form-control.mr-sm-2 {
+    width: 65%;
+    margin: 0px auto;
+	text-align: center;
+}
+
+.search{
+	width: 85%;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section::after {
+    clear: both;
+    display: table;
+    content: " ";
+}
